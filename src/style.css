@@ -32,6 +32,16 @@
   top: -34px;
 }
 
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+}
+
+.weather-temperature .active:hover {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
