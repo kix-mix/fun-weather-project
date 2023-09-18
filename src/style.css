@@ -1,11 +1,22 @@
+hr {
+  width: 130px;
+  display: block;
+}
 .overview {
   margin-bottom: 20px;
+}
+
+#search {
+  background-color: #ffba6b;
+  border: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4), -1px -1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 25px;
+  background-color: #ffebd4;
 }
 
 .weather-app-wrapper {
@@ -17,6 +28,9 @@
   margin-top: 20px;
   text-align: center;
   color: #000;
+  background-color: #ebcdd6;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4), -1px -1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .weather-forecast-date {
